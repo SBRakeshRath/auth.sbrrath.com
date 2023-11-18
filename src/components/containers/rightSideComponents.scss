@@ -1,0 +1,38 @@
+.rightSide {
+   
+
+    background-color: rgb(255 190 121);
+    justify-self: right;
+    box-shadow: inset 0px 0px 20px 0px #936e47;
+    display: flex;
+    flex-direction: column;
+    .logoContainer {
+      height: 33%;
+      align-self: start;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      background-color: #343465;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .mainContainer {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: auto;
+      position: relative;
+      p {
+        padding: 10px 10px;
+        z-index: 2;
+        font-size: 1.6rem;
+        text-align: center;
+        color: #6262d3;
+      }
+    }
+  }

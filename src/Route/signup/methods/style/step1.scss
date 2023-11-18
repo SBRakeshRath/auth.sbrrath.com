@@ -1,0 +1,33 @@
+#signupPage {
+  .step1 {
+    .leftSide {
+      .contentSection {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        // justify-content: center;
+        h1 {
+          color: rgb(0, 0, 255);
+          margin-bottom: 10px;
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          padding: 29px;
+          background-color: #fff1f1;
+          box-shadow: inset 0px 0px 17px 0px #ffb9b9;
+          margin: auto;
+          width: 100%;
+          max-width: 450px;
+          button {
+            margin-top: 20px;
+          }
+
+          
+        }
+      }
+    }
+  }
+}
