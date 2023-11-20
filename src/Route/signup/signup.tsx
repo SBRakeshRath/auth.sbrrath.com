@@ -11,7 +11,7 @@ export default function Signup() {
       {/* <LoadingAnimationVariantOne /> */}
       <Routes>
         <Route path="/" element={<RegisterOption />} />
-        <Route path="/withEmailAndPassword" element={<WithEmailAndPasswordRoutes />} />
+        <Route path="/withEmailAndPassword/*" element={<WithEmailAndPasswordRoutes />} />
         
       </Routes>
     </div>
